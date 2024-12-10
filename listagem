@@ -1,0 +1,4 @@
+
+01- Usando o " -- " serve para delimitar argumentos apartir deste. ( exemplo cd -- --DIRETORIO | Em vez de cd --DIRETORIO | que ira causar um erro.
+02- Usando o " CTRL + TAB " serve para prever o proximo diretorio ao usar o comando "CD" EXEMPLO: cd / (CTRL + TAB ) = cd /HOME .
+03- 
