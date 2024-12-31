@@ -53,3 +53,46 @@ LGPL LESSER MENOS RIGIDEZ, PARA BIBLIOTECAS, EX BIB PYTHON
 
 #FREE BSD
 
+## COMMERCIAL SHAREWARE FREEWARE
+COMMERCIAL: pago
+SHAREWARE: pago mas pode ser pedido uma liberaçao por 30 dias ou mais
+FREEWARE: gratis, mas nao necessariamente de codigo aberto.
+
+
+
+
+
+## LINUX
+<KERNEL> BASE MODIFICAVEL
+<GNU CORE UTILS> PACOTE DE COMANDOS
+<SOFTWARES SUPL> INTERFACES GRAFICAS EDITORES DE TEXTOS ETC
+<SCRIPTS/SERVIÇOS> SERVIÇOS INICIADOS APARTIR DO BOOT
+<INSTALADORES> EXECUTAVEIS QUE SERVEM PARA INSTALAR PROGRAMAS
+
+## DEBIAN REDHAT E SLACKWARE
+
+<DEBIAN> EX:ubuntu e mint ( instavel ) usado tambem em servidores por sua segurança, codigo aberto aplicaçoes cloud e , (LTS vers~ao com suporte de 2 anos )
+
+
+<REDHAT> EX:centos e scientific, maior empresa interprise focada em servidores, 
+
+<SLACKWARE> EX:suse e opensuse  apenas 1 desenvolvedor, concorrente da hadhat,foco em mercado interprise 
+
+RESUMO( PARA SERVIDORES: REDHAT SUSE E SENTOS <> CODIGO ABERTO OPENSUSE E CETOS)
+
+## SISTEMAS EMBARCADOS, IOI, CLOUD
+SISTEMAS EMBARCADOS: EXEMPLO: ANDROID
+
+IOT INTERNET DAS COISAS:   POR TECNOLOGIA ONDE NAO HAVIA, RASPBIAN ( RASPBERRY PI OS )  
+
+CLOUD COMPUTER: servidores pagos com assinatura, sistema mais ultilizado ( linux )   EX:OPEN STACK  MICROSOFT AGES
+
+
+
+###########
+
+##
+
+
+
+
