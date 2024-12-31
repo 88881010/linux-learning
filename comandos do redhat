@@ -1,0 +1,5 @@
+#ATUALIZAR
+yum update -y
+
+#INSTALAR INTERFACE GNOME
+yum groups install "GNOME desktop" -y && systemctl set-default graphical
