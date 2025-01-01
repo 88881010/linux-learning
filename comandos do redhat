@@ -3,3 +3,30 @@ yum update -y
 
 #INSTALAR INTERFACE GNOME
 yum groups install "GNOME desktop" -y && systemctl set-default graphical
+
+BIN: binary , binarios que todos os usuarios podem ultilizar
+BOOT: tudo relacionado ao boot do sistema
+DEV: device, todos os dispositivos perifericos, 
+( blocos começam com "B "
+ETC: diretorio de configuraçao, arquivos de programas e comandos,
+HOME: arquivos pessoais do user
+LIB E LIB64: DLL's dos programas instalados
+MEDIA: pendrives e discos montados no hardware 
+MNT: montar dispositivos temporarios EX: ssd externo
+OPT: PACOTES INTERNOS QUE NAO SAO INSTALADOS PELO REPOSITORIO DA DISTRO
+PROC: sistema de arquivos, pseudo sistema de arquivos, obter informacoess do hardware,  
+ROOT: /home do user root
+RUN: arquivos executados temporariamente
+SBIN: binarios do sistema EX: fsck concertar sistema de arquivos  so o root pode executar
+SYS: informaçao de drivers hardware gerenciamento de energia etc
+USR: igual ao / tudo relacionado a um user programas especificos para um user.
+VAR: diversos serviços EX: logs, spool filas de emails e inpressao, principal uso.
+
+## INTERFACES GRAFICAS
+
+
+
+
+
+
+ 
