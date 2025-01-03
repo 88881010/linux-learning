@@ -1,0 +1,73 @@
+##SERVIDORES WEB
+
+  APACHE E NGINX: PORT:80/443
+    servidores web, estes sao os mais ultilizados
+
+    
+    MABIADB/MYSQL:PORT:3306
+    bancos de dados, armz, dados 
+
+      
+    NFS: PORT:2049
+network file system. gerenciador de arquivos onlines
+      
+    SAMBA: PORT:139/445
+mesma funçao de compart. compartilha para windows e linux tambem 
+      
+    SSH: PORT:22
+conexoes remotas e  arquivos remot sshd
+      
+    DNS: PORT:53
+resolvedor de nomes gerenciador de rede fas a conversao bind 
+      
+    TENET: PORT:23  
+      testa serviços, telnetD
+
+      
+    SMTP: PORT:25  
+servidor de email, 
+
+    CUPS: PORT:631
+      servidor de impressao
+
+
+    OWNCLOUD:
+aplicaçoes servidores web, tem bancos de dados, para compartilhar ferramentas e aplicativos, para toda a equipe acessar
+
+    NEXTCLOUD
+baseado no owncloud
+
+
+  ### metodos de desenvolvimento e linguagens de programaçao
+
+  COMPOLADAS: para executar e ter uma saida eu preciso compilar 
+c : compilar e gerar um arquivo e depois executar,  para aplicaçoes baixo nivel como o kernel interface direta com o hardware.
+  
+
+
+go : desenvolvida pela google, para devops para criar plataformas de alta estrutura.
+  
+
+
+hashkell: desenvolver codigo para hardware como placas de video
+
+  INTERPRETADAS:
+
+nao precisa compilar pois da uma saida imediata
+
+python: linguagem versatil sendo usada em varios ambientes: pproteger, criar sites, etc.
+
+java: linguagem de apps web, apps locais, multiplataforma. interpletador que lida.
+
+php: linguagem para servidor web modelagem de dados, 
+
+pebl: bate de frente com o python, varios ambientes,
+
+shell script: nativa do linux, 
+
+  ## gerenciamento de pacotes.
+
+  DEBIAN: 
+nonfree pacotes da nvidia
+  
+  
