@@ -1,0 +1,13 @@
+#instalar programa  
+( h - mostra uma barra de progresso ) ( v - mostra mais detalhes durante a instalaçao
+                                      
+rpm -ihv programa.rpm
+
+#which nano
+mostra onde esta instalado o nano
+
+rpm -qi nano ( mostra informaçoes dosbre o nano
+
+rpm -qR nano ( lista as libres que o programa nano ultiliza
+              
+            
