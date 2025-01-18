@@ -1,0 +1,16 @@
+#info, man, coc
+  
+man -l arquivo ( para ler sem descompactar arquivo.)
+
+
+/usr/share/doc/ e /usr/share/man/    ( contem arquivos de documentações oficiais)
+
+formas de obter instrução, ( pelos comentarios nos arquivos de configuração) ( pelo /usr/share/man/ ou /usr/share/doc/ com o recurso < man -l para arquivos compactados. )
+
+
+  #caminhos absolutos e caminhos relativos
+   EX de caminho absoluto ( /usr/share/man )  EX diretorio relativo ( /documents )
+
+    rmdir -rf diretorio (  remove o diretorio e tudo dentro dele )
+    
+      
