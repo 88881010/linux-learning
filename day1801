@@ -12,7 +12,7 @@ formas de obter instrução, ( pelos comentarios nos arquivos de configuração)
    EX de caminho absoluto ( /usr/share/man )  EX diretorio relativo ( /documents )
 
     rmdir -rf diretorio (  remove o diretorio e tudo dentro dele )
-
+rm -rf ( apaga arquivo e tudo dentro )
 
 tar -tf arquivo.tar ( mostra dados do arquivo sem extrair)
 ou
@@ -28,8 +28,17 @@ tar -cvjf arquivo ( comprime arquivo para tar.bz2 )
 tar -xvzf arquivo ( descomprime arquivo tar.gz )
 tar -tvjf arquivo ( descomprime arquivo tar.bz2 )
 
+gzip arquivo.tar  ( transforma arquivo tar para tar.gz )
+gunzip arquivo.tar.gz ( torna o arquivo paara tar novamente )
+
+
+bzip2 arquivo.tar ( transforma o arquivo tar para tar.bz2 )
+bunzip2 arquivo.tar.bz2 ( torna o arquivo para .tar novamente )
 
 
 
-    
-      
+  
+
+
+apt install gzip bzip2
+
