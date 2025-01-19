@@ -1,4 +1,4 @@
-#info, man, coc
+    #info, man, coc
   
 man -l arquivo ( para ler sem descompactar arquivo.)
 
@@ -12,5 +12,13 @@ formas de obter instrução, ( pelos comentarios nos arquivos de configuração)
    EX de caminho absoluto ( /usr/share/man )  EX diretorio relativo ( /documents )
 
     rmdir -rf diretorio (  remove o diretorio e tudo dentro dele )
+
+
+tar -tf arquivo.tar ( mostra dados do arquivo sem extrair)
+
+tar -cvf arquivo ( compacta arquivo )
+
+tar -cvzf arquivo ( comprimir arquivo )
+
     
       
