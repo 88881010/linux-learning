@@ -15,12 +15,18 @@ formas de obter instrução, ( pelos comentarios nos arquivos de configuração)
 
 
 tar -tf arquivo.tar ( mostra dados do arquivo sem extrair)
+ou
+tar -tvjf arquivo ( mostra dados do arquivo bz2 )
+tar -tvzf arquivo ( mostra dados do arquivo gz )      
 
 tar -cvf arquivo ( compacta arquivo )
 
 tar -cvzf arquivo ( comprimir arquivo para .gz)
 
 tar -cvjf arquivo ( comprime arquivo para tar.bz2 )
+
+tar -xvzf arquivo ( descomprime arquivo tar.gz )
+tar -tvjf arquivo ( descomprime arquivo tar.bz2 )
 
 
 
