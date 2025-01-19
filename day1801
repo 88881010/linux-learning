@@ -18,7 +18,12 @@ tar -tf arquivo.tar ( mostra dados do arquivo sem extrair)
 
 tar -cvf arquivo ( compacta arquivo )
 
-tar -cvzf arquivo ( comprimir arquivo )
+tar -cvzf arquivo ( comprimir arquivo para .gz)
+
+tar -cvjf arquivo ( comprime arquivo para tar.bz2 )
+
+
+
 
     
       
