@@ -14,6 +14,8 @@ formas de obter instrução, ( pelos comentarios nos arquivos de configuração)
     rmdir -rf diretorio (  remove o diretorio e tudo dentro dele )
 rm -rf ( apaga arquivo e tudo dentro )
 
+
+#comprimir e compactar arquivos 
 tar -tf arquivo.tar ( mostra dados do arquivo sem extrair)
 ou
 tar -tvjf arquivo ( mostra dados do arquivo bz2 )
@@ -35,7 +37,11 @@ gunzip arquivo.tar.gz ( torna o arquivo paara tar novamente )
 bzip2 arquivo.tar ( transforma o arquivo tar para tar.bz2 )
 bunzip2 arquivo.tar.bz2 ( torna o arquivo para .tar novamente )
 
+zip -r arquivo.zip arquivo-desejado
+unzip arquivo.zip
 
+xz arquivo.tar 
+unxz arquivo.tar.xz 
 
   
 
