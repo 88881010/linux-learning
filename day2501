@@ -16,4 +16,16 @@
     cut -d : -f 1 /etc/passwd | sort
 
 #CONTAGEM DE LINHAS E MAIS
-      
+wc -l ( conta as linhas )
+wc -w ( conta as palavras )
+wc -c (conta os caracteres)
+
+
+#EXPRESSÕES REGULARES
+grep '^g.*o' arquivo1.txt 
+
+  #PARAMETROS
+   ( ^ ) letras e caracteres iniciais
+   ( $ ) letras e caracteres finais
+   ( . ) qualquer digito
+   ( * ) tudo 
