@@ -29,3 +29,15 @@ grep '^g.*o' arquivo1.txt
    ( $ ) letras e caracteres finais
    ( . ) qualquer digito
    ( * ) tudo 
+   ( -v ) inverte o padrão
+   ( -i ) ignora a especificação de maiusculas e minusculas chamando ambas
+
+  tambem posso criar uma lista usando ( [] ) 
+       EX: grep '^[AaBb] /etc/passwd
+e também posso negar 
+  EX:  grep '^[^AaBb]' /etc/passwd
+
+podemos usar o parametro -v para negar um padrão ao invez de '^[^]'
+  EX: grep -v '^a' /etc/passwd
+também podemos juntar -v com -i EX: grep -vi '^a' /etc/passwd
+
