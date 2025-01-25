@@ -1,0 +1,19 @@
+#REDIRECIONAMENTO DE COMANDOS
+
+  stdin ( 0 )  entrada
+  stdout ( 1 ) saida padrão 
+  stderr ( 2 ) saida de erros
+
+#TRUNCAR ARQUIVO 
+  cat arquivo.txt >  arquivo.txt
+{ ler e concatenar para o mesmo arquivo }
+
+#SEPARAR COLUNAS POR PADRÕES USANDO O COMANDO ( CUT )
+  EX: cut -d : -f 1 /etc/passwd   ( {-d = delimitador} {-f coluna} )
+
+#ORDENAÇÃO POR ORDEM USANDO O COMANDO (SORT)
+
+    cut -d : -f 1 /etc/passwd | sort
+
+#CONTAGEM DE LINHAS E MAIS
+      
