@@ -1,0 +1,20 @@
+#CICLO DE VIDA DE UMA DISTRIBUIÇÃO
+
+DESIGN
+parte de concepção de desenvolvimento do sistema
+levantamento do que pode ser  melhorado
+
+DEVELOP
+parte de programação do sistema
+
+DEPLOY
+lançamento da distro para o publico
+
+MANAGE
+parte de melhorias continuas do sistema
+resolver bugs e mais
+
+RETIRE
+fim do ciclo, passado o prazo de suporte, o sistema é retirado do mercado.
+
+.................................................
