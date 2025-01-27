@@ -1,0 +1,24 @@
+# USANDO O EDITOR DE TERMIAL VIM
+  COMANDOS
+      :q  (SAI DO ARQUIVO)
+      :qw! (SALVA E FORÇA A SAIDA DO ARQUIVO)
+      :w ( SALVA O ARQUIVO )
+      p  (COLA)
+      SHIFT + gg (PGDOWN)
+      gg (PGUP)
+      d () 
+      yy (COPIA)
+        
+
+
+
+    #SHELL SCRIPT
+        #!/bin/bash
+
+for i in {1..10}; do
+  if (( $i % 2 == 0 )); then
+    echo "$i é divisível por 2"
+  else
+    echo "$i não é divisível por 2"
+  fi
+done
