@@ -18,3 +18,13 @@ RETIRE
 fim do ciclo, passado o prazo de suporte, o sistema é retirado do mercado.
 
 .................................................
+
+free -h
+dmide code -t baseboardps 
+fdisk -l
+lsblk
+df -h
+ps -eH
+top
+ps -e --forest
+ps -efH
