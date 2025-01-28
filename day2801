@@ -1,0 +1,23 @@
+comandos
+
+  dmesg
+  top
+  ps
+  
+ipconfig
+  ip a
+
+  ip route
+  ip addr show
+  ifconfig
+  
+  route
+  ip r
+  netstat -r
+
+  netstat -ln
+  ss -ln
+  
+/etc/resolv.conf
+/etc/hosts
+  
