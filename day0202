@@ -1,0 +1,69 @@
+#revelam as cessões abertas    
+who
+w
+#revela o historico de cessões
+  last
+
+  #arquivo de configuração do sudo
+  /etc/sudoers 
+
+#adcionar user ao grupo sudo
+
+  usermod -a -G sudo usuario
+
+#checar usuarios do grupo sudo
+  cat /etc/group | grep sudo 
+
+#  criar um grupo
+  groupadd nomedogrupo
+
+# arquivo defalt
+/etc/default/useradd
+
+#permições 
+
+  READ    WRITE  EXECUTE
+   R       W        X
+   4       2        1 
+
+  RW-RW-R        
+
+  664
+
+  RWXRWXR-X
+  
+  775
+
+  ....................
+
+  #ADCIONAR E PERMIÇÕES 
+
+  chmod o+rwx
+
+  #remover permições
+  chmod o-rm
+
+  #editar permições
+  chmod o=rwx
+
+  #adcionar para todos separadamente
+  chmod u=rwx,g=rwx,o=rw -R diretorio/           ( o '-R' significa para toda a raiz do diretorio)
+
+  #usando a forma numerica ( octal )
+  
+  chmod 777 file or directory
+  
+ #sinais
+  ( u )  user
+  ( g )  group
+  ( o )  other
+
+  # mudar usuario e grupo
+  sudo chown user:group file or directory
+
+  #
+
+  
+
+
+
