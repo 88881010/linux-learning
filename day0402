@@ -1,0 +1,11 @@
+link simbolico e fisico
+  
+unlink link
+  #criar link simbolico
+  ln -s file1 file2
+  
+
+  #criar link fisico
+  ln file1 file2
+
+  
